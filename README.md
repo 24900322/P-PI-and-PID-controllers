@@ -109,30 +109,33 @@ title("pid-controller")
 
 ## Result:
 Thus the P, PI and PID controllers for the given system was analysed and the following conclusions were arrived using MATLAB. <br>
-### With-out controller 
-Delay time =         <br>
-Rise time =             <br>
-Peak time =           <br>
-Settling time =            <br>
-Steady State Error =        <br>
-### With P Controller 
-Delay time =         <br>
-Rise time =             <br>
-Peak time =           <br>
-Settling time =            <br>
-Steady State Error =        <br>
-### With PI Controller 
-Delay time =         <br>
-Rise time =             <br>
-Peak time =           <br>
-Settling time =            <br>
-Steady State Error =        <br>
-### With PID Controller 
-Delay time =         <br>
-Rise time =             <br>
-Peak time =           <br>
-Settling time =            <br>
-Steady State Error =        <br>
+## Without Controller (O-I)
+- Delay Time = 0.40 sec
+- Rise Time = 1.20 sec
+- Peak Time = N/A
+- Settling Time = 2.20 sec
+- Steady State Error = 0.000
+
+## With P Controller
+- Delay Time = 0.08 sec
+- Rise Time = 0.10 sec
+- Peak Time = 0.23 sec
+- Settling Time = 1.20 sec
+- Steady State Error = 0.100
+
+## With PI Controller
+- Delay Time = 0.10 sec
+- Rise Time = 0.15 sec
+- Peak Time = 0.23 sec
+- Settling Time = 8.50 sec
+- Steady State Error = 0.000
+
+## With PID Controller
+- Delay Time = 0.02 sec
+- Rise Time = 0.10 sec
+- Peak Time = N/A
+- Settling Time = 0.20 sec
+- Steady State Error = 0.080
 
 
 
